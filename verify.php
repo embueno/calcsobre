@@ -27,13 +27,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-        <script type="text/javascript">
-          
-        function notperm(){
-        alert("Permissão não consedida!");
-        window.location.href('http://calculesobreaviso.pe.hu')
-      };
-        </script>
+       <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
     </head>
 <body>
