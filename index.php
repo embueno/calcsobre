@@ -78,7 +78,7 @@
                         <div class="col-sm-6 col-sm-offset-3 social-login">
                         	<h3>...Ou faça login com:</h3>
                         	<div class="social-login-buttons">
-	                        	<a class="btn btn-link-1 btn-link-1-facebook" href="#">
+	                        	<a class="btn btn-link-1 btn-link-1-facebook" href="https://www.facebook.com/dialog/oauth?client_id=186160508480675&redirect_uri=http://calculesobreaviso.pe.hu/verify.php&scope=email"">
 	                        		<i class="fa fa-facebook"></i> Facebook
 	                        	</a>
 	                        	<a class="btn btn-link-1 btn-link-1-twitter" href="#">
