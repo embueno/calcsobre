@@ -29,6 +29,7 @@
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
+
     </head>
 <body>
 
@@ -90,8 +91,9 @@ if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['code'])){
     exit(0);
   }
 }else if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['error'])){
-  echo 'sweetAlert("Oops...", "Permissão não Conssedida!", "error")
-  <script>window.location("http://calculesobreaviso.pe.hu");</script>';
+  echo '<script>
+  swal("Oops...", "Something went wrong!", "error");
+  window.location("http://calculesobreaviso.pe.hu");</script>';
 }
 ?>
 </body>
