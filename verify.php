@@ -96,7 +96,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['code'])){
     exit(0);
   }
 }else if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['error'])){
-  echo '<script>function notperm();</script>';
+  echo '<script>alert("Permissão não consedida!");</script>';
 }
 ?>
 </body>
