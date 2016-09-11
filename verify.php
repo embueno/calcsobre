@@ -27,6 +27,13 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+        <script type="text/javascript">
+          
+        function notperm(){
+        alert("Permissão não consedida!");
+        window.location.href('http://calculesobreaviso.pe.hu')
+      };
+        </script>
 
     </head>
 <body>
@@ -89,10 +96,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['code'])){
     exit(0);
   }
 }else if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['error'])){
-  echo '</div>
-<div class="alert alert-danger" role="alert">
-  <strong>Permissão não concedida</strong>.
-</div>';
+  echo '<script>function notperm();</script>';
 }
 ?>
 </body>
