@@ -96,7 +96,8 @@ if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['code'])){
     exit(0);
   }
 }else if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['error'])){
-  echo '<script>alert("Permissão não consedida!");</script>';
+  echo '<script>sweetAlert("Oops...", "Permissão não Conssedida!", "error");
+  window.location("http://calculesobreaviso.pe.hu");</script>';
 }
 ?>
 </body>
