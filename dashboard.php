@@ -910,13 +910,13 @@
                 </div>
                 <!-- ./col -->
                 <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                  <input type="text" class="knob" data-readonly="true" value="35" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
                   <div class="knob-label">Online</div>
                 </div>
                 <!-- ./col -->
                 <div class="col-xs-4 text-center">
-                  <input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                  <input type="text" class="knob" data-readonly="true" value="35" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
                   <div class="knob-label">In-Store</div>
                 </div>
