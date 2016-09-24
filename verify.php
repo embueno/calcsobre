@@ -92,8 +92,9 @@ if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['code'])){
   }
 }else if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['error'])){
   echo '<script>
-  alert("Permissão não consedida");
-  window.location.href="http://calculesobreaviso.pe.hu";</script>';
+  alert("Permissão não consedida");</script>';
+  header("Locatioin: http://calculesobreaviso.pe.hu")
+  //window.location.href="http://calculesobreaviso.pe.hu";';
 }
 ?>
 </body>
